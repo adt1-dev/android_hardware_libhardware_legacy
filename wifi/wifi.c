@@ -1346,3 +1346,39 @@ int wifi_set_svc_args(const char * svc_args)
 
     return 0;
 }
+
+int bt_set_drv_arg(const char * bt_drv_arg)
+{
+    // Dummy function
+    return 0;
+}
+
+int wifi_set_drv_arg(const char * wifi_drv_arg)
+{
+    // Dummy function
+    return 0;
+}
+
+int wifi_enable(void)
+{
+    // Dummy function
+    return 0;
+}
+
+int wifi_disable(void)
+{
+    // Dummy function
+    return 0;
+}
+
+int wifi_get_fwstate(void)
+{
+    // Dummy function
+    return 0;
+}
+
+int wifi_uap_force_poweroff(void)
+{
+    // Dummy function
+    return 0;
+}
